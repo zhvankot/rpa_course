@@ -1,0 +1,20 @@
+-- The type of automation project
+
+There are 4 predefined types of workflows – 
+Sequence, 
+Flowchart, 
+State Machine 
+and Global Exception Handler.
+
+We are covering them in depth in the “Project Organization” course, 
+for now let’s focus on the difference between sequences and flowcharts, 
+as we will use both extensively in our examples throughout the entire course.
+
+-> In sequences, the process steps flow in a clear succession. Decision trees are rarely used. 
+Activities in sequences are easier to read and maintain, thus, they are highly recommended 
+for simple, linear workflows.
+
+-> In flowcharts, the individual activities are a bit more difficult to read and edit, but 
+the flows between them are much clearer. Use flowcharts when decision points and 
+branching are needed in order to accommodate complex scenarios, 
+workarounds and decision mechanisms. 

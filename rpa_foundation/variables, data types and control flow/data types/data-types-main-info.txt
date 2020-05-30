@@ -1,0 +1,35 @@
+-- The GenericValue 
+(UiPath.Core.GenericValue) 
+variable is a type of variable particular to UiPath 
+that can store any kind of data, including text, 
+numbers, dates, and arrays.
+
+UiPath Studio has an automatic conversion mechanism 
+of GenericValue variables, which you can guide towards 
+the desired outcome by carefully defining their expressions. 
+
+Please note that the first element in your expression is used 
+as a guideline for what operation Studio performs. 
+
+For example, when you try to add two GenericValue variables, if the first one 
+in the expression is defined as a String, the result is the concatenation 
+of the two. If it is defined as an Integer, the result is their sum.
+
+--What are some business scenarios in which I will use GenericValue variables?
+
+Data is extracted from a UI field and forwarded to another workflow without processing
+
+Two versions of the same Excel file are being compared column by column. The columns 
+are different in terms of data type, the only relevant thing is which entries have changes 
+
+
+--The control flow statements
+
+The activities and methods used to define the decisions to be made during the execution 
+of a workflow. The most common control flow statements are the if/else decision, 
+the loops and the switch. Let's focus on them one by one.
+
+(Операторы потока управления
+Действия и методы, используемые для определения решений, которые должны быть приняты 
+во время выполнения рабочего процесса. Наиболее распространенными операторами 
+потока управления являются решение if / else, циклы и коммутатор.)

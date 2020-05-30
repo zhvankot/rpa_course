@@ -1,0 +1,28 @@
+-- Good Case Practices - Creating Variables
+
+Use clear and consistent naming conventions - one of the most common 
+is Camel case (each word in the middle of the phrase is capitalized)
+
+Make sure you define the scope of each variable correctly - remember 
+that a variable defined on a limited scope cannot be used globally. 
+
+At the same time, in real automation scenarios, it is crucial for 
+variables to be defined only in the scope in which they are used.
+ 
+Making multiple variables unnecessarily global can cause efficiency 
+issues as well as possibility for confusion.
+
+-- Arguments
+
+In UiPath, the scope of a variable cannot exceed the workflow 
+in which it was defined. Since business automation projects 
+rarely consist of single workflows, arguments have to be used.
+
+Arguments are very similar to variables – they store data dynamically, 
+they have the same data types and they support the same methods. 
+
+The difference is that they pass data between workflows, and 
+they have an additional property for this – the direction from/to 
+which the data is passed. 
+
+The direction can be In, Out and In/Out.

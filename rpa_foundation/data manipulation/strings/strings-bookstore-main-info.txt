@@ -1,0 +1,28 @@
+--Activities and Methods used
+We started the project as a Sequence and used an Assign for the initial value 
+of the “message” String variable: "You searched for author Mark Twain. 
+His books can be found in the following stores: Bookland, Classics bookstore."
+
+We created a new String variable (“author”) and used a succession 
+of String methods to assign the author from the query: 
+message.Split("."c).First.ToString.Substring(message.LastIndexOf("author")):
+
+v Split("."c).First.ToString extracts the first sentence of the String 
+and converts it to a String;
+
+v Substring(message.LastIndexOf("author")) extracts the Substring that is after “author”;
+
+We created a new List variable (“bookstores”) and used a succession of String methods 
+to assign the bookstores from the query: message.Split("."c)(1).ToString.Split(":"c).Last.ToString.Split(","c).ToList
+
+v message.Split("."c)(1).ToString extracts the second sentence of the String and converts it to a String;
+
+v Split(":"c).Last.ToString splits the remaining String and keeps only the last part of it;
+
+v Split(","c).ToList takes each string separated by comma and adds it as an element in the List variable;
+
+We created a new String variable to display the values of the 2 variables: 
+String.Format("Availability for {0}: {1}", author ,String.Join(";"+vbCr,bookstores)). 
+
+In this expression, String.Join is used to extract each element in the “bookstores” 
+List variable and display them. vbCr is used to go on a new row for each element (similar to Environment.NewLine)

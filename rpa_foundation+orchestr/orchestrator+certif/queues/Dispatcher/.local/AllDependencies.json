@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6.1": [
+      "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
+      "UiPath.Mail.Activities >= 1.5.0",
+      "UiPath.System.Activities >= 19.6.0 <= 19.6.0",
+      "UiPath.UIAutomation.Activities >= 19.6.0 <= 19.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\razvan.petria\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "Academy_Orchestrator_Practice8_Dispatcher",
+      "projectName": "Academy_Orchestrator_Practice8_Dispatcher",
+      "projectPath": "C:\\Users\\razvan.petria\\Desktop\\Diverse 2\\RPA Developer\\1.10. Orchestrator for Developers\\New folder\\Academy_Orchestrator_Practice8_Dispatcher\\.local",
+      "packagesPath": "C:\\Users\\razvan.petria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\razvan.petria\\Desktop\\Diverse 2\\RPA Developer\\1.10. Orchestrator for Developers\\New folder\\Academy_Orchestrator_Practice8_Dispatcher\\.local"
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "UiPath.Excel.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.6.2, 2.6.2]"
+          },
+          "UiPath.Mail.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.5.0, )"
+          },
+          "UiPath.System.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[19.6.0, 19.6.0]"
+          },
+          "UiPath.UIAutomation.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[19.6.0, 19.6.0]"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.System.Activities with version (= 19.6.0)\r\n  - Found 1 version(s) in C:\\Program Files (x86)\\UiPath\\Studio\\.\\Packages [ Nearest version: 19.4.0 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 19.4.0 ]\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Desktop\\Diverse 2\\RPA Developer\\1.7. Project Organization\\5 Libraries\\Demo\\Demo\\2\r\n  - Found 0 version(s) in Acme\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Packages\r\n  - Found 0 version(s) in RoboHR\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.System.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.UIAutomation.Activities with version (= 19.6.0)\r\n  - Found 1 version(s) in C:\\Program Files (x86)\\UiPath\\Studio\\.\\Packages [ Nearest version: 19.4.1 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 19.4.1 ]\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Desktop\\Diverse 2\\RPA Developer\\1.7. Project Organization\\5 Libraries\\Demo\\Demo\\2\r\n  - Found 0 version(s) in Acme\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Packages\r\n  - Found 0 version(s) in RoboHR\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.UIAutomation.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.Mail.Activities with version (>= 1.5.0)\r\n  - Found 1 version(s) in C:\\Program Files (x86)\\UiPath\\Studio\\.\\Packages [ Nearest version: 1.4.0 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 1.4.0 ]\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Desktop\\Diverse 2\\RPA Developer\\1.7. Project Organization\\5 Libraries\\Demo\\Demo\\2\r\n  - Found 0 version(s) in Acme\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Packages\r\n  - Found 0 version(s) in RoboHR\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.Mail.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.Excel.Activities with version (= 2.6.2)\r\n  - Found 1 version(s) in C:\\Program Files (x86)\\UiPath\\Studio\\.\\Packages [ Nearest version: 2.5.3 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 2.5.3 ]\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Desktop\\Diverse 2\\RPA Developer\\1.7. Project Organization\\5 Libraries\\Demo\\Demo\\2\r\n  - Found 0 version(s) in Acme\r\n  - Found 0 version(s) in C:\\Users\\razvan.petria\\Packages\r\n  - Found 0 version(s) in RoboHR\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.Excel.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    }
+  ]
+}

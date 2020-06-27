@@ -1,0 +1,34 @@
+{
+  "Packages": [
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "[2.6.2]"
+      },
+      "Assemblies": []
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.5.0"
+      },
+      "Assemblies": []
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "[19.6.0]"
+      },
+      "Assemblies": []
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "[19.6.0]"
+      },
+      "Assemblies": []
+    }
+  ],
+  "Conflicts": [],
+  "ResolvedDependencies": {}
+}
